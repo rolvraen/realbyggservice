@@ -1,76 +1,548 @@
 ﻿<!DOCTYPE html>
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!-->
 <html lang="en">
+ <!--<![endif]-->
 <head>
+    <title>Real Byggservice AS</title>
+    <!-- Meta -->
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>REAL Byggservice AS</title>
-
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/font-awesome.min.css" />    
-    <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="../favicon.ico">
+    <!-- Web Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Niconne' rel='stylesheet' type='text/css'>
+    <!-- CSS Global Compulsory -->
+    <link rel="stylesheet" href="assets/css/plugins/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/app.css">
+    <link rel="stylesheet" href="assets/css/blocks.css">
+    <link rel="stylesheet" href="assets/css/one.style.css">
+    <!-- CSS Footer -->
+    <!-- CSS Implementing Plugins -->
+    <link rel="stylesheet" href="assets/css/plugins/animate.css">
+    <link rel="stylesheet" href="assets/css/plugins/line-icons.css">
+    <link rel="stylesheet" href="assets/css/plugins/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/plugins/owl.carousel.css">
+    <link rel="stylesheet" href="assets/css/plugins/cubeportfolio.min.css">
+    <link rel="stylesheet" href="assets/css/plugins/custom-cubeportfolio.css">
+    <link rel="stylesheet" href="assets/css/plugins/custom-hover-effects.css">
+    <link rel="stylesheet" href="assets/css/plugins/sky-forms.css">
+    <link rel="stylesheet" href="assets/css/plugins/custom-sky-forms.css">
+    <link rel="stylesheet" href="assets/css/plugins/pace-flash.css">
+    <!-- CSS Theme -->
+    <link rel="stylesheet" href="assets/css/construction.style.css">
+    <link rel="stylesheet" href="assets/css/global.css">
+    <!-- CSS Customization -->
+    <link rel="stylesheet" href="assets/css/custom.css">
 </head>
-<body>
-    <header id="header" class="header">
-        <div id="topbar" class="topbar">
-            <div class="container-fluid">
-                <nav class="main-nav" role="navigation">
-                    <div class="navbar-header text-center">
-                        <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-collapse">
-                            <span class="icon-bar-wrapper">
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                            </span>
-                        </button>
-                    </div>
-                    <div id="navbar-collapse" class="navbar-collapse collapse text-center">
-                        <ul class="nav navbar-nav center-block">
-                            <li class="nav-item active"><a class="scrollto" href="#header">Hjem</a></li>
-                            <li class="nav-item active"><a class="scrollto" href="#contact">Kontakt oss</a></li>
+<body id="body" data-spy="scroll" data-target=".one-page-header" class="demo-lightbox-gallery font-main promo-padding-top">
+    <main class="wrapper">
+        <!-- Header -->
+        <nav class="header one-page-header navbar navbar-default navbar-fixed-top construction-header one-page-nav-scrolling one-page-nav__fixed" data-role="navigation">
+            <div class="container">
+                <div class="menu-container page-scroll">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#body">
+                        <img class="img-responsive" src="assets/img/logo.png" alt="Logo">
+                    </a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse navbar-ex1-collapse g-pt-25 g-sm-pt-0">
+                    <div class="menu-container">
+                        <ul class="nav navbar-nav">
+                            <li class="page-scroll home">
+                                <a href="#body"><span data-hover="Home">Hjem</span></a>
+                            </li>
+                            <li class="page-scroll">
+                                <a href="#about">Om</a>
+                            </li>
+                            <li class="page-scroll">
+                                <a href="#services">Tjenester</a>
+                            </li>
+                            <li class="page-scroll">
+                                <a href="#projects">Nylige prosjekter</a>
+                            </li>
+                            <li class="page-scroll">
+                                <a href="#gallery">Galleri</a>
+                            </li>
+                            <li class="page-scroll g-sm-mb-20">
+                                <a href="#contact">Kontakt</a>
+                            </li>
                         </ul>
                     </div>
-                </nav>
-                <div class="social-container">
-                    <ul class="list-inline social-list">
-                        <li class="social-item"><a href="https://www.facebook.com/REAL-Byggservice-As-1766894820256867/?ref=page_internal"><i class="fa fa-facebook"></i></a></li>                        
-                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container -->
+        </nav>
+        <!-- End Header -->
+        <!-- Promo Block-->
+        <section class="promo-section" id="intro">
+            <div class="container-fluid no-column-space">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="fullscreen-static-image1 fullheight promo-block">
+                            <div class="promo-block__content g-pr-50">
+                                <div class="text-right pull-right">
+                                    <span class="promo__pretitle g-dp-block g-mb-20">Profesjonell og real</span>
+                                    <h1 class="promo__title promo__title--right-bar g-pr-30 font-main g-mb-30">Innvending<br>byggservice</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="fullscreen-static-image2 fullheight promo-block">
+                            <div class="promo-block__content g-pl-50">
+                                <div class="text-left pull-left">
+                                    <span class="promo__pretitle g-dp-block g-mb-20">Profesjonell og real</span>
+                                    <h1 class="promo__title g-pl-30 promo__title--left-bar font-main g-mb-30">
+                                        Utvendig<br>byggservice
+                                    </h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="branding container">
-            <h1 class="logo pull-left">
-                <img id="logo-image" class="logo-image" src="assets/logo.png" alt="Logo">
-            </h1>
-            <ul class="header-info-list list-inline pull-right">
-                <li class="info-item contact-methods">
-                    <span class="custom-icon fa fa-phone"></span>
-                    <span class="info-main phone-number"><a href="#">948 56 680</a></span>
-                    <span class="info-sub"><a href="#">kontor@realbyggservice.no</a></span>
-                </li>
-            </ul>
-        </div>
-    </header>
-   
-    <div class="container">
-        <div class="alert alert-danger">            
-            <p>Innholdet er under bygging</p>
-            <p>Ta kontakt med oss på telefon eller e-post i mellomtiden</p>
+        </section>
+        <!-- End Promo Block -->
+        <!-- About -->
+        <section id="about">
+            <div class="container-fluid no-padding with-bg with-bg--1">
+                <div class="color-overlay"></div>
+                <div class="container">
+                    <!-- call to action -->
+                    <div class=" row g-pt-20 g-pb-30">
+                        <div class="col-md-8 col-sm-12 col-md-offset-4">
+                            <div class="call-action-v1 call-action-v1-boxed">
+                                <div class="call-action-v1-box">
+                                    <div class="call-action-v1-in">
+                                        <h3 class="cta__title font-main">Ønsker du en uforpliktende befaring og tilbud?</h3>
+                                        <p class="cta__text">Vi kommer gjerne på uforpliktende befaringer for å kunne tilby den beste løsningen for våre kunder. </p>
+                                    </div>
+                                    <div class="call-action-v1-in inner-btn page-scroll">
+                                        <a href="#contact" class="btn-u btn-u--construction trim"><i class="g-mr-10 fa btn-u__fa fa-arrow-right"></i> Kontakt oss for befaring</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="g-pt-70 g-pb-80">
+                    <div class="row">
+                        <div class="col-md-5 g-pt-30">
+                            <img class="img-responsive about__img g-mb-30" src="assets/img/floor-plan-1474454_640.jpg" alt="">
+                            <h3 class="about__title font-main g-mb-20">REAL BYGGSERVICE </h3>
+                            <p class="about__text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi.</p>
+                        </div>
+                        <!-- Tabs -->
+                        <div class="col-md-7">
+                            <!-- Accordion v1 -->
+                            <div class="panel-group acc-v1 plus-toggle " id="accordion-1">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a class="accordion-toggle g-pt-0" data-toggle="collapse" data-parent="#accordion-1" href="#collapse-One">
+                                                <span class="icon-user tab__icon g-mr-10"></span> Hvem vi er
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapse-One" class="panel-collapse collapse in">
+                                        <div class="panel-body">
+                                            <p>Anim pariatur cliche reprehenderit, 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.</p>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion-1" href="#collapse-Two">
+                                                <span class="icon-calendar tab__icon g-mr-10"></span> Vår historie
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapse-Two" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                            <p>
+                                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Food truck quinoa nesciunt laborum eiusmod.
+                                                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion-1" href="#collapse-Three">
+                                                <span class="icon-settings tab__icon g-mr-10"></span> Våre tjenester
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapse-Three" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                            <p>
+                                                3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+                                                At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion-1" href="#collapse-Four">
+                                                <span class="icon-diamond tab__icon g-mr-10"></span> Våre verdier
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapse-Four" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                            <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. nesciunt laborum eiusmod.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Accordion v1 -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End About -->
+        <!-- Our Services -->
+        <section id="services">
+            <!-- best services -->
+            <div class="container-fluid no-column-space">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="best-service best-service--1 text-center">
+                            <div class="valign__middle">
+                                <h2 class="best-service__title font-main g-mb-20">Planlegging</h2>
+                                <p class="best-service__text g-mb-30">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="best-service best-service--2 text-center">
+                            <div class="valign__middle">
+                                <h2 class="best-service__title font-main g-mb-20">Tegninger</h2>
+                                <p class="best-service__text g-mb-30">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="best-service best-service--3 text-center">
+                            <div class="valign__middle">
+                                <h2 class="best-service__title font-main g-mb-20">Nybygg</h2>
+                                <p class="best-service__text g-mb-30">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="best-service best-service--4 text-center">
+                            <div class="valign__middle">
+                                <h2 class="best-service__title font-main g-mb-20">Restaurering</h2>
+                                <p class="best-service__text g-mb-30">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container content-lg g-pb-90">
+                <blockquote class="bq-text-lg text-right">
+                    <p>Her kan man legge inn et passende budskap, slagord eller sitat</p>
+                    <small><em>Another example</em></small>
+                </blockquote>
+            </div>
+        </section>
+        <!-- End Our Services -->
+        <!-- Recent Projects -->
+        <section id="projects">
+            <div class="container-fluid with-bg with-bg--2 no-padding">
+                <div class="color-overlay"></div>
+                <div class="container content-lg">
+                    <div class="heading-v14 heading-v14--diff text-center g-mb-100">
+                        <span class="heading-v14__block-name g-dp-block g-mb-20">Nylige prosjekter</span>
+                        <h1 class="heading-v14__title font-main">Et utvalg av nylige prosjekter</h1>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 g-sm-mb-50">
+                            <span class="project__cat">GARASJE</span>
+                            <h3 class="project__title font-main g-mb-20">Oppføring av garasje</h3>
+                            <img class="project__img img-responsive g-mb-20" src="assets/img/garasje.jpg" alt="Garasje">
+                            <p class="project__text g-mb-40">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        </div>
+                        <div class="col-md-4 g-sm-mb-50">
+                            <span class="project__cat">TILBYGG</span>
+                            <h3 class="project__title font-main g-mb-20">Nytt tilbygg</h3>
+                            <img class="project__img img-responsive g-mb-20" src="assets/img/fasade.jpg" alt="">
+                            <p class="project__text g-mb-40">Fasadeendring med etterisolering ny stor terrasse og nytt tilbygg.</p>
+                        </div>
+                        <div class="col-md-4">
+                            <span class="project__cat">Vaskerom</span>
+                            <h3 class="project__title font-main g-mb-20">Vaskerom</h3>
+                            <img class="project__img img-responsive g-mb-20" src="assets/img/bad.jpg" alt="">
+                            <p class="project__text g-mb-40">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Recent Projects -->
+        <!-- Gallery -->
+        <section id="gallery">
+            <div class="container-fluid no-side-padding g-pt-100">
+                <div class="heading-v14 text-center g-mb-60">
+                    <span class="heading-v14__block-name g-dp-block g-mb-20">Galleri</span>
+                    <h1 class="heading-v14__title font-main g-mb-60">Vårt arbeid</h1>
+                </div>
+                <!--=== Cube-Portfdlio ===-->
+                <div class="cube-portfolio margin-bottom-20">
+                    <div class="content-xs g-pb-0">
+                        <div id="filters-container" class="cbp-l-filters-text content-xs">
+                            <div data-filter="*" class="cbp-filter-item-active cbp-filter-item"> Alle </div>
+                            <div data-filter=".nybygg" class="cbp-filter-item cbp-filter-item--1"> Nybygg </div>
+                            <div data-filter=".restaurering" class="cbp-filter-item cbp-filter-item--2"> Restaurering </div>
+                        </div><!--/end Filters Container-->
+                    </div>
+                    <div id="grid-container" class="cbp-l-grid-fullWidth">
+                        <div class="cbp-item nybygg">
+                            <a href="assets/img/garasje.jpg" class="cbp-caption cbp-lightbox" data-title="">
+                                <div class="cbp-caption-defaultWrap">
+                                    <img src="assets/img/garasje.jpg" alt="">
+                                </div>
+                                <div class="cbp-caption-activeWrap">
+                                    <div class="cbp-l-caption-alignLeft">
+                                        <div class="cbp-l-caption-body">
+                                            <span class="g-dp-block cbp-cat g-mb-10">Nybygg</span>
+                                            <div class="cbp-l-caption-title">Garasje</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="cbp-item nybygg">
+                            <a href="assets/img/garasje2.jpg" class="cbp-caption cbp-lightbox" data-title="">
+                                <div class="cbp-caption-defaultWrap">
+                                    <img src="assets/img/garasje2.jpg" alt="">
+                                </div>
+                                <div class="cbp-caption-activeWrap">
+                                    <div class="cbp-l-caption-alignLeft">
+                                        <div class="cbp-l-caption-body">
+                                            <span class="g-dp-block cbp-cat g-mb-10">Nybygg</span>
+                                            <div class="cbp-l-caption-title">Garasje</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
 
-        </div>
-    </div>
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+                        <div class="cbp-item restaurering">
+                            <a href="assets/img/fasade.jpg" class="cbp-caption cbp-lightbox" data-title="" custom title="">
+                                <div class="cbp-caption-defaultWrap">
+                                    <img src="assets/img/fasade.jpg" alt="">
+                                </div>
+                                <div class="cbp-caption-activeWrap">
+                                    <div class="cbp-l-caption-alignLeft">
+                                        <div class="cbp-l-caption-body">
+                                            <span class="g-dp-block cbp-cat g-mb-10">Tilbygg</span>
+                                            <div class="cbp-l-caption-title">Fasadeendring og tilbygg</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="cbp-item restaurering">
+                            <a href="assets/img/bad.jpg" class="cbp-caption cbp-lightbox" data-title="" custom title="">
+                                <div class="cbp-caption-defaultWrap">
+                                    <img src="assets/img/bad.jpg" alt="">
+                                </div>
+                                <div class="cbp-caption-activeWrap">
+                                    <div class="cbp-l-caption-alignLeft">
+                                        <div class="cbp-l-caption-body">
+                                            <span class="g-dp-block cbp-cat g-mb-10">Vaskerom</span>
+                                            <div class="cbp-l-caption-title">Vaskerom</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="cbp-item restaurering">
+                            <a href="assets/img/bad2.jpg" class="cbp-caption cbp-lightbox" data-title="" custom title="">
+                                <div class="cbp-caption-defaultWrap">
+                                    <img src="assets/img/bad2.jpg" alt="">
+                                </div>
+                                <div class="cbp-caption-activeWrap">
+                                    <div class="cbp-l-caption-alignLeft">
+                                        <div class="cbp-l-caption-body">
+                                            <span class="g-dp-block cbp-cat g-mb-10">Vaskerom</span>
+                                            <div class="cbp-l-caption-title">Vaskerom</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="cbp-item restaurering">
+                            <a href="assets/img/bad3.jpg" class="cbp-caption cbp-lightbox" data-title="" custom title="">
+                                <div class="cbp-caption-defaultWrap">
+                                    <img src="assets/img/bad3.jpg" alt="">
+                                </div>
+                                <div class="cbp-caption-activeWrap">
+                                    <div class="cbp-l-caption-alignLeft">
+                                        <div class="cbp-l-caption-body">
+                                            <span class="g-dp-block cbp-cat g-mb-10">Vaskerom</span>
+                                            <div class="cbp-l-caption-title">Vaskerom</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="cbp-item restaurering">
+                            <a href="assets/img/loft.jpg" class="cbp-caption cbp-lightbox" data-title="" custom title="">
+                                <div class="cbp-caption-defaultWrap">
+                                    <img src="assets/img/loft.jpg" alt="">
+                                </div>
+                                <div class="cbp-caption-activeWrap">
+                                    <div class="cbp-l-caption-alignLeft">
+                                        <div class="cbp-l-caption-body">
+                                            <span class="g-dp-block cbp-cat g-mb-10">Loft</span>
+                                            <div class="cbp-l-caption-title">Utbygging av loftsetasje</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="cbp-item restaurering">
+                            <a href="assets/img/loft2.jpg" class="cbp-caption cbp-lightbox" data-title="" custom title="">
+                                <div class="cbp-caption-defaultWrap">
+                                    <img src="assets/img/loft2.jpg" alt="">
+                                </div>
+                                <div class="cbp-caption-activeWrap">
+                                    <div class="cbp-l-caption-alignLeft">
+                                        <div class="cbp-l-caption-body">
+                                            <span class="g-dp-block cbp-cat g-mb-10">Loft</span>
+                                            <div class="cbp-l-caption-title">Utbygging av loftsetasje</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div><!--/end Grid Container-->
+                </div>
+                <!--=== End Cube-Portfdlio ===-->
+            </div>
+        </section>
+        <!-- End Gallery -->
+        <!-- Contact -->
+        <section id="contact">
+            <div class="container content-lg">
+                <div class="heading-v14 text-center g-mb-60">
+                    <span class="heading-v14__block-name g-dp-block g-mb-20">Kontak oss</span>
+                    <h1 class="heading-v14__title font-main g-mb-60">Kom i kontakt med oss</h1>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <ul class="list-unstyled contact__table">
+                            <li class="contact__cell contact__cell--1 text-center">
+                                <ul class="list-unstyled">
+                                    <li><span class="icon-direction contact-list__icon g-dp-block g-mb-30"></span></li>
+                                    <li class="contact-list__item-1">Pyttenveien 28</li>
+                                    <li class="contact-list__item-2">3114 Tønsberg</li>
+                                </ul>
+                            </li>
+                            <li class="contact__cell contact__cell--2 text-center">
+                                <ul class="list-unstyled">
+                                    <li><span class="icon-call-in contact-list__icon g-dp-block g-mb-30"></span></li>
+                                    <li class="contact-list__item-1">Telefon</li>
+                                    <li class="contact-list__item-2">948 56 680</li>
+                                </ul>
+                            </li>
+                            <li class="contact__cell contact__cell--3 text-center">
+                                <ul class="list-unstyled">
+                                    <li><span class="icon-envelope-open contact-list__icon g-dp-block g-mb-30"></span></li>
+                                    <li class="contact-list__item-1">E-post</li>
+                                    <li class="contact-list__item-2">kontor@realbyggservice.no</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Contact -->
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container-fluid no-padding with-bg with-bg--6">
+                <div class="color-overlay"></div>
+                <div class="container content-md">
+                    <div class="row">
+                        <div class="col-md-5 text-left text-sm-center g-sm-mb-20 g-pt-30">
+                            <p class="footer__text">
+                                &copy; 2016<strong> Strong Resolve.</strong>
+                            </p>
+                        </div>
+                        <div class="col-md-2 text-center g-sm-mb-20 g-pt-20">
+                            <p class="footer__support">REAL BYGGSERVICE AS <br><p class="footer__support">Org nr: 917 441 715</p> </p>
+                        </div>
+                        <div class="col-md-5 text-right text-sm-center g-pt-25">
+                            <ul class="list-inline footer__list">
+                                <li><a href="https://www.facebook.com/realbyggservice.no/?ref=page_internal"><i class="icon-custom footer__fa icon-sm fa fa-facebook"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- End Footer -->
+    </main>
+    <!-- JS Global Compulsory -->
+    <script src="assets/js/plugins/jquery.min.js"></script>
+    <script src="assets/js/plugins/jquery-migrate.min.js"></script>
+    <script src="assets/js/plugins/bootstrap.min.js"></script>
+    <!-- JS Implementing Plugins -->
+    <script src="assets/js/plugins/smoothScroll.js"></script>
+    <script src="assets/js/plugins/jquery.easing.min.js"></script>
+    <script src="assets/js/plugins/pace.min.js"></script>
+    <script src="assets/js/plugins/owl.carousel.min.js"></script>
+    <script src="assets/js/plugins/jquery.form.min.js"></script>
+    <script src="assets/js/plugins/jquery.validate.min.js"></script>
+    <script src="assets/js/plugins/jquery.cubeportfolio.min.js"></script>
+    <script src="assets/js/plugins/modernizr.js"></script>
+    <script src="assets/js/plugins/jquery.backstretch.min.js"></script>
+    <!-- JS Page Level-->
+    <script src="assets/js/one.app.js"></script>
+    <script src="assets/js/plugins/owl2-carousel-v1.js"></script>
+    <script src="assets/js/plugins/owl2-carousel-v2.js"></script>
+    <script src="assets/js/plugins/owl2-carousel-v3.js"></script>
+    <script src="assets/js/plugins/cube-portfolio.js"></script>
+    <script src="assets/js/forms/contact.js"></script>
+    <script src="assets/js/plugins/promo.js"></script>
+    <script>
+        $(function () {
+            App.init();
+            Owl2Carouselv1.initOwl2Carouselv1();
+            Owl2Carouselv2.initOwl2Carouselv2();
+            Owl2Carouselv3.initOwl2Carouselv3();
+            ContactForm.initContactForm();
+        });
+    </script>
+    <!--[if lt IE 10]>
+      <script src="assets/js/plugins/jquery.placeholder.min.js"></script>
+    <![endif]-->
 </body>
 </html>
