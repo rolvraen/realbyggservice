@@ -89,6 +89,12 @@ a:hover {
 	background: #fff;
 }
 
+@media (max-width: 495px) {
+    .heading-v14__title {
+        font-size: 22px;
+    }
+}
+
 .heading-v14--diff .heading-v14__block-name,
 .heading-v14--diff .heading-v14__title,
 .heading-v14--diff .heading-v14__text {

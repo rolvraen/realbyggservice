@@ -221,7 +221,7 @@
 
 @media (max-width: 885px) {
     .promo__title {
-        font-size: 65px;
+        font-size: 48px;
     }
 }
 
@@ -234,7 +234,7 @@
 
 @media (max-width: 495px) {
     .promo__title {
-        font-size: 50px;
+        font-size: 36px;
     }
 }
 
