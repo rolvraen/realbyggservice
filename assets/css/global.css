@@ -116,11 +116,14 @@ a:hover {
 	background: url(../img/architect-254579_640.jpg) no-repeat 17% 70%;
 	background-size: 310px 190px;
 }
-/*.container-fluid.with-bg--2 {background: url(../img-temp/projects/project-bg.jpg) no-repeat 80% 95%;}
-.container-fluid.with-bg--3 {background: #f9f9f9;}
+/*
+.container-fluid.with-bg--2 {background: url(../img-temp/projects/project-bg.jpg) no-repeat 80% 95%;}
 .container-fluid.with-bg--4 {background: url(../img-temp/17.jpg) no-repeat 50% 80%;}
 .container-fluid.with-bg--5 {background: url(../img-temp/46.jpg) no-repeat 80% 80%;}
-.container-fluid.with-bg--6 {background: url(../img-temp/47.jpg) no-repeat 80%;}*/
+.container-fluid.with-bg--6 {background: url(../img-temp/47.jpg) no-repeat 80%;}
+*/
+.container-fluid.with-bg--3 {background: #f9f9f9;}
+
 
 .color-overlay {
     position: absolute;
