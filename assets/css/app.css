@@ -2600,3 +2600,27 @@ img.img-center,
 	-webkit-align-items: center;
 	align-items: center;
 }
+
+.checked {
+	color: orange;
+  }
+
+  /* Optional styling */
+summary::-webkit-details-marker {
+	color: blue;
+  }
+  summary:focus {
+	outline-style: none;
+  }
+
+
+
+  .details,
+.show,
+.hide:target {
+  display: none;
+}
+.hide:target + .show,
+.hide:target ~ .details {
+  display: block;
+}
