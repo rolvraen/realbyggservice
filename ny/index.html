@@ -15,7 +15,7 @@
   <meta property="og:site_name" content="Real Byggservice">
   <meta property="og:title" content="Real Byggservice AS – snekker i Tønsberg">
   <meta property="og:description" content="Store og små snekkeroppdrag i Vestfold, til avtalt tid og pris.">
-  <meta property="og:image" content="https://www.realbyggservice.no/ny/img/takloft-1.jpg">
+  <meta property="og:image" content="https://www.realbyggservice.no/ny/img/arkitekthus-2.jpg">
 
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -68,8 +68,8 @@
         </ul>
       </div>
       <figure class="hero__bilde">
-        <img src="img/takloft-1.jpg" srcset="img/takloft-1-sm.jpg 540w, img/takloft-1.jpg 1200w" sizes="(max-width: 820px) 100vw, 40vw" alt="Takløft under arbeid: nye takstoler reises over et hus med stillas rundt" width="1200" height="1600" fetchpriority="high">
-        <figcaption>Takløft under arbeid</figcaption>
+        <img src="img/arkitekthus-1.jpg" alt="Moderne enebolig ved sjøen med mørk stående trekledning, utkraget overetasje og store vindusflater" width="720" height="960" fetchpriority="high">
+        <figcaption>Nybygg ved sjøen, mørk stående kledning</figcaption>
       </figure>
     </section>
 
@@ -85,12 +85,17 @@
           <li class="tjeneste">
             <h3>Nybygg og tilbygg</h3>
             <p>Garasjer, tilbygg, terrasser og hytter. Vi definerer behov, rom og størrelse tidlig, og bygger med anerkjente tekniske løsninger innenfor et realistisk budsjett.</p>
-            <img src="img/fasade-sm.jpg" alt="Hvitt hus med rødt tak, ny stor terrasse og tilbygg" width="720" height="540" loading="lazy">
+            <img src="img/arkitekthus-2.jpg" alt="Utkraget overetasje med mørk trekledning og glassrekkverk, med sjøen i bakgrunnen" width="720" height="960" loading="lazy">
           </li>
           <li class="tjeneste">
-            <h3>Tak</h3>
-            <p>Takomlegging, takløft, ny takstein, takvinduer og snøfangere. Vi tar oss også av lekkasjer og råteskader.</p>
-            <img src="img/tak-2-sm.jpg" alt="Eldre hus med stillas rundt, under takomlegging" width="720" height="540" loading="lazy">
+            <h3>Tak og fasade</h3>
+            <p>Ny kledning, takomlegging, takløft, takvinduer og snøfangere. Vi tar oss også av lekkasjer og råteskader.</p>
+            <img src="img/kledning-enebolig.jpg" alt="Enebolig med ny grå stående kledning og hvite vinduer" width="960" height="720" loading="lazy">
+          </li>
+          <li class="tjeneste">
+            <h3>Terrasser og uterom</h3>
+            <p>Terrasser, balkonger, trapper, levegger og avfallsskur. Vi bygger solid fra rammeverket og opp, med materialer som tåler været.</p>
+            <img src="img/terrasse-rekkverk.jpg" alt="Ny terrasse i oljet tre med rekkverk av liggende spiler" width="960" height="720" loading="lazy">
           </li>
           <li class="tjeneste">
             <h3>Restaurering og rehabilitering</h3>
@@ -142,27 +147,42 @@
           <div class="filter" role="group" aria-label="Vis prosjekter etter type">
             <button type="button" aria-pressed="true" data-filter="alle">Alle</button>
             <button type="button" aria-pressed="false" data-filter="nybygg">Nybygg og tilbygg</button>
-            <button type="button" aria-pressed="false" data-filter="tak">Tak</button>
-            <button type="button" aria-pressed="false" data-filter="takloft">Takløft</button>
-            <button type="button" aria-pressed="false" data-filter="renovering">Totalrenovering</button>
+            <button type="button" aria-pressed="false" data-filter="tak">Tak og fasade</button>
+            <button type="button" aria-pressed="false" data-filter="ute">Terrasser og uterom</button>
             <button type="button" aria-pressed="false" data-filter="innvendig">Innvendig</button>
           </div>
         </header>
 
         <ul class="galleri" id="galleri">
+          <li class="stor" data-kat="nybygg"><a href="img/arkitekthus-2.jpg"><img src="img/arkitekthus-2.jpg" alt="Nybygg ved sjøen: utkraget overetasje med mørk trekledning og glassrekkverk" loading="lazy"></a></li>
+          <li class="hoy" data-kat="nybygg"><a href="img/arkitekthus-1.jpg"><img src="img/arkitekthus-1.jpg" alt="Nybygg ved sjøen: mørk stående kledning og store vindusflater" loading="lazy"></a></li>
+          <li data-kat="nybygg"><a href="img/arkitekthus-utkraget.jpg"><img src="img/arkitekthus-utkraget.jpg" alt="Kledd himling under utkraget overetasje" loading="lazy"></a></li>
+          <li class="stor" data-kat="tak"><a href="img/kledning-enebolig.jpg"><img src="img/kledning-enebolig.jpg" alt="Enebolig med ny grå stående kledning" loading="lazy"></a></li>
+          <li class="stor" data-kat="ute"><a href="img/terrasse-rekkverk.jpg"><img src="img/terrasse-rekkverk.jpg" alt="Ny terrasse med rekkverk av liggende spiler" loading="lazy"></a></li>
+          <li class="hoy" data-kat="ute"><a href="img/balkong-trapp.jpg"><img src="img/balkong-trapp.jpg" alt="Ny balkong med utvendig trapp" loading="lazy"></a></li>
+          <li data-kat="ute"><a href="img/avfallsskur.jpg"><img src="img/avfallsskur.jpg" alt="Nytt avfallsskur i beiset tre" loading="lazy"></a></li>
+          <li data-kat="nybygg"><a href="img/rund-apning.jpg"><img src="img/rund-apning.jpg" alt="Rund åpning i etasjeskiller, under arbeid" loading="lazy"></a></li>
+          <li class="hoy" data-kat="nybygg"><a href="img/buet-vegg.jpg"><img src="img/buet-vegg.jpg" alt="Buet vegg i stålstendere, under arbeid" loading="lazy"></a></li>
+          <li class="hoy" data-kat="nybygg"><a href="img/arkitekthus-kledning.jpg"><img src="img/arkitekthus-kledning.jpg" alt="Mørk stående kledning rundt hjørne, under arbeid" loading="lazy"></a></li>
+          <li class="hoy" data-kat="ute"><a href="img/takterrasse.jpg"><img src="img/takterrasse.jpg" alt="Takterrasse med ny membran og stolper til rekkverk" loading="lazy"></a></li>
+          <li data-kat="ute"><a href="img/terrasse-ramme.jpg"><img src="img/terrasse-ramme.jpg" alt="Rammeverk til ny terrasse og levegg" loading="lazy"></a></li>
+          <li class="hoy" data-kat="ute"><a href="img/levegg.jpg"><img src="img/levegg.jpg" alt="Ny levegg og terrassebord klare for montering" loading="lazy"></a></li>
+          <li class="hoy" data-kat="ute"><a href="img/terrassebord.jpg"><img src="img/terrassebord.jpg" alt="Terrassebord legges med avstandsverktøy" loading="lazy"></a></li>
+          <li data-kat="innvendig"><a href="img/garasjehall.jpg"><img src="img/garasjehall.jpg" alt="Nye vegger i garasjehall, bindingsverk og plater" loading="lazy"></a></li>
+          <li class="hoy" data-kat="tak"><a href="img/pipebeslag.jpg"><img src="img/pipebeslag.jpg" alt="Nytt pipebeslag klart for montering" loading="lazy"></a></li>
           <li class="stor" data-kat="nybygg"><a href="img/fasade.jpg"><img src="img/fasade-sm.jpg" alt="Fasadeendring med etterisolering, ny stor terrasse og tilbygg" loading="lazy"></a></li>
           <li data-kat="nybygg"><a href="img/garasje.jpg"><img src="img/garasje-sm.jpg" alt="Ny garasje" loading="lazy"></a></li>
           <li data-kat="nybygg"><a href="img/garasje2.jpg"><img src="img/garasje2-sm.jpg" alt="Ny garasje" loading="lazy"></a></li>
-          <li class="hoy" data-kat="takloft"><a href="img/takloft-2.jpg"><img src="img/takloft-2-sm.jpg" alt="Takløft: nye takstoler og stillas" loading="lazy"></a></li>
-          <li data-kat="takloft"><a href="img/takloft-3.jpg"><img src="img/takloft-3-sm.jpg" alt="Takløft: huset med ny vindsperre" loading="lazy"></a></li>
+          <li class="hoy" data-kat="tak"><a href="img/takloft-2.jpg"><img src="img/takloft-2-sm.jpg" alt="Takløft: nye takstoler og stillas" loading="lazy"></a></li>
+          <li data-kat="tak"><a href="img/takloft-3.jpg"><img src="img/takloft-3-sm.jpg" alt="Takløft: huset med ny vindsperre" loading="lazy"></a></li>
           <li data-kat="tak"><a href="img/tak-1.jpg"><img src="img/tak-1-sm.jpg" alt="Takomlegging med stillas og firmabilen vår foran huset" loading="lazy"></a></li>
           <li data-kat="tak"><a href="img/tak-2.jpg"><img src="img/tak-2-sm.jpg" alt="Takomlegging på eldre hus" loading="lazy"></a></li>
           <li class="hoy" data-kat="tak"><a href="img/tak-3.jpg"><img src="img/tak-3-sm.jpg" alt="Takomlegging" loading="lazy"></a></li>
           <li data-kat="tak"><a href="img/sundbyfoss-5.jpg"><img src="img/sundbyfoss-5-sm.jpg" alt="Takomlegging: nye lekter" loading="lazy"></a></li>
-          <li class="stor" data-kat="renovering"><a href="img/sundbyfoss-1.jpg"><img src="img/sundbyfoss-1-sm.jpg" alt="Totalrenovering av enebolig" loading="lazy"></a></li>
-          <li data-kat="renovering"><a href="img/sundbyfoss-2.jpg"><img src="img/sundbyfoss-2-sm.jpg" alt="Totalrenovering" loading="lazy"></a></li>
-          <li data-kat="renovering"><a href="img/sundbyfoss-3.jpg"><img src="img/sundbyfoss-3-sm.jpg" alt="Totalrenovering" loading="lazy"></a></li>
-          <li class="hoy" data-kat="renovering"><a href="img/sundbyfoss-4.jpg"><img src="img/sundbyfoss-4-sm.jpg" alt="Totalrenovering: nye lekter på taket" loading="lazy"></a></li>
+          <li data-kat="tak"><a href="img/sundbyfoss-1.jpg"><img src="img/sundbyfoss-1-sm.jpg" alt="Totalrenovering av enebolig" loading="lazy"></a></li>
+          <li data-kat="tak"><a href="img/sundbyfoss-2.jpg"><img src="img/sundbyfoss-2-sm.jpg" alt="Totalrenovering" loading="lazy"></a></li>
+          <li data-kat="tak"><a href="img/sundbyfoss-3.jpg"><img src="img/sundbyfoss-3-sm.jpg" alt="Totalrenovering" loading="lazy"></a></li>
+          <li class="hoy" data-kat="tak"><a href="img/sundbyfoss-4.jpg"><img src="img/sundbyfoss-4-sm.jpg" alt="Totalrenovering: nye lekter på taket" loading="lazy"></a></li>
           <li data-kat="innvendig"><a href="img/stue-9.jpg"><img src="img/stue-9-sm.jpg" alt="Renovering av stue" loading="lazy"></a></li>
           <li data-kat="innvendig"><a href="img/stue-1.jpg"><img src="img/stue-1-sm.jpg" alt="Renovering av stue" loading="lazy"></a></li>
           <li class="hoy" data-kat="innvendig"><a href="img/stue-2.jpg"><img src="img/stue-2-sm.jpg" alt="Renovering av stue" loading="lazy"></a></li>
@@ -179,6 +199,7 @@
           <li data-kat="innvendig"><a href="img/loft.jpg"><img src="img/loft-sm.jpg" alt="Utbygging av loftsetasje" loading="lazy"></a></li>
           <li data-kat="innvendig"><a href="img/loft2.jpg"><img src="img/loft2-sm.jpg" alt="Utbygging av loftsetasje" loading="lazy"></a></li>
         </ul>
+        <button class="knapp knapp--strek galleri__flere" type="button" id="flereBilder" hidden>Vis alle bildene</button>
       </div>
     </section>
 
@@ -314,13 +335,15 @@
     <section class="seksjon seksjon--betong" aria-labelledby="fb-tittel">
       <div class="ramme fb">
         <div class="fb__tekst">
-          <h2 id="fb-tittel">Fra Facebook</h2>
-          <p>Vi legger ut bilder fra pågående jobber på Facebook-siden vår.</p>
+          <h2 id="fb-tittel">Følg jobbene underveis</h2>
+          <p>På Facebook legger vi ut bilder fra pågående jobber, fra rammeverk og stendere til ferdig kledning.</p>
           <a class="knapp knapp--strek" href="https://www.facebook.com/realbyggservice.no/" rel="noopener">Følg oss på Facebook</a>
         </div>
-        <div class="fb__innlegg">
-          <iframe title="Siste innlegg fra Real Byggservice på Facebook" src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Frealbyggservice.no%2Fposts%2Fpfbid0QXT6ZtYfHJEzPF15ogs1HvYXeUqE9PjSDLYb5EP1e1w3K1pPaRM8JnqxPEozh1oSl&show_text=true&width=500" width="500" height="722" loading="lazy" allow="clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
-        </div>
+        <ul class="fb__bilder">
+          <li><img src="img/rund-apning.jpg" alt="Rund åpning i etasjeskiller, under arbeid" loading="lazy"></li>
+          <li><img src="img/buet-vegg.jpg" alt="Buet vegg i stålstendere, under arbeid" loading="lazy"></li>
+          <li><img src="img/terrasse-ramme.jpg" alt="Rammeverk til ny terrasse og levegg" loading="lazy"></li>
+        </ul>
       </div>
     </section>
 

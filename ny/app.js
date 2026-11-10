@@ -39,13 +39,33 @@
   /* Galleri-filter */
   const galleri = $("#galleri");
   const elementer = $$("li", galleri);
+  const GALLERI_FORST = 16;
+  let visAlleBilder = false;
+  let filter = "alle";
+  const flereBilder = $("#flereBilder");
+
+  const oppdaterGalleri = () => {
+    const treff = elementer.filter((li) => filter === "alle" || li.dataset.kat === filter);
+    elementer.forEach((li) => { li.hidden = true; });
+    treff.forEach((li, n) => { li.hidden = !visAlleBilder && n >= GALLERI_FORST; });
+    const skjulte = treff.length - GALLERI_FORST;
+    flereBilder.hidden = visAlleBilder || skjulte <= 0;
+    flereBilder.textContent = `Vis alle ${treff.length} bildene`;
+  };
   $$(".filter button").forEach((knapp, _, alle) => {
     knapp.addEventListener("click", () => {
       alle.forEach((k) => k.setAttribute("aria-pressed", String(k === knapp)));
-      const f = knapp.dataset.filter;
-      elementer.forEach((li) => { li.hidden = f !== "alle" && li.dataset.kat !== f; });
+      filter = knapp.dataset.filter;
+      oppdaterGalleri();
     });
   });
+  flereBilder.addEventListener("click", () => {
+    const forsteNye = elementer.filter((li) => li.hidden && (filter === "alle" || li.dataset.kat === filter))[0];
+    visAlleBilder = true;
+    oppdaterGalleri();
+    $("a", forsteNye)?.focus({ preventScroll: true });
+  });
+  oppdaterGalleri();
 
   /* Lysboks */
   const boks = $("#lysboks");
